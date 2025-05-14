@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 int a = Integer.parseInt(etNum1.getText().toString());
                 int b = Integer.parseInt(etNum2.getText().toString());
                 if (b == 0) {
-                    etResult.setText("Không thể chia cho 0");
+                    etResult.setText("B phải khác 0");
                 } else {
                     int result = a / b;
                     etResult.setText(String.valueOf(result));
